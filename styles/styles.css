@@ -1,0 +1,47 @@
+body {
+  background: linear-gradient(0deg, #b0b4d5 0%, #c2d7e7 50%, #f2f0ff);
+  background-size: 100vm 100 vm;
+  text-align: center;  
+
+}
+
+p {
+  color: #364572;
+  text-align: center;
+  font-size: 3vw;
+}
+
+button {
+  color: #364572;
+  background-color: #f2f0ff;
+  font-size: 3vw;
+  padding: 1vw 4vw;
+  margin: 1vw 3vw;
+  background-repeat: no-repeat;
+  background-position: left;  
+}
+
+/* for specific buttons*/
+.int-home {
+  background-image: url("image/home.svg");
+  background-position: left;  
+}
+.int-projects {
+   background-image: url("image/folder-limited.svg");
+  background-position: left;  
+}
+.int-socials {
+   background-image: url("image/email.svg");
+}
+
+.ext-github {
+  background-image: url(image/github.svg);
+}	 
+
+.ext-instagram {
+  background-image: url(image/instagram.svg);
+}
+
+.ext-tumblr {
+  background-image: url(image/tumblr.svg)
+}
