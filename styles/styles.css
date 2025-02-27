@@ -1,47 +1,23 @@
 body {
-  background: linear-gradient(0deg, #b0b4d5 0%, #c2d7e7 50%, #f2f0ff);
-  background-size: 100vm 100 vm;
-  text-align: center;  
-
+	background: linear-gradient(#e4c0ed 0%, #c8e8e8 40%, #b2cadb 100%);
+	background-repeat: no-repeat;
+	background-size: 100vw 100vh;
+	color: #797c89;
+	padding: auto;
 }
-
-p {
-  color: #364572;
-  text-align: center;
-  font-size: 3vw;
+.frame {
+	margin: auto;
+	border: 5px solid #ffffffb8;
+	max-width: 75vh;
+	height: 75vh;
+	text-align: center;
 }
-
-button {
-  color: #364572;
-  background-color: #f2f0ff;
-  font-size: 3vw;
-  padding: 1vw 4vw;
-  margin: 1vw 3vw;
-  background-repeat: no-repeat;
-  background-position: left;  
+.bio {
+	margin: auto;
 }
-
-/* for specific buttons*/
-.int-home {
-  background-image: url("image/home.svg");
-  background-position: left;  
+.socials {
+	margin: auto;
 }
-.int-projects {
-   background-image: url("image/folder-limited.svg");
-  background-position: left;  
-}
-.int-socials {
-   background-image: url("image/email.svg");
-}
-
-.ext-github {
-  background-image: url(image/github.svg);
-}	 
-
-.ext-instagram {
-  background-image: url(image/instagram.svg);
-}
-
-.ext-tumblr {
-  background-image: url(image/tumblr.svg)
+.todo {
+	margin: auto;
 }
